@@ -385,8 +385,8 @@ footer.foot b{color:#fff;font-family:var(--serif);letter-spacing:.08em}
     <h2><span class="es">Conversemos sobre su proyecto</span><span class="en">Let's talk about your project</span></h2>
     <p class="intro"><span class="es">Una primera llamada de 30 minutos basta para saber si su proyecto está listo para financiarse y qué le falta.</span><span class="en">A first 30-minute call is enough to know whether your project is ready to be financed and what it still needs.</span></p>
     <div class="contact-grid">
-      <a class="js-mail" href="#contacto" data-u="rodrigovenegasmortigo" data-d="gmail.com" aria-label="Email"><small>Email</small><span class="mail-ico"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg></span><em><span class="es">Escríbame</span><span class="en">Write to me</span></em></a>
-      <a href="https://wa.me/573155446661" target="_blank" rel="noopener"><small>WhatsApp</small><span>+57 315 544 6661</span><em>wa.me/573155446661</em></a>
+      <a class="js-mail" href="#contacto" data-u="rodrigovenegasmortigo" data-d="gmail.com" aria-label="Email"><small>Email</small><span class="mail-ico"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg></span><em><span class="es">Escríbame</span><span class="en">Write to me</span></em></a>
+      <a class="js-wa" href="#contacto" data-n="573155446661" target="_blank" rel="noopener" aria-label="WhatsApp"><small>WhatsApp</small><span class="mail-ico"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z"/><path d="M8.6 7.8c.3-.3.8-.3 1 .1l.8 1.7c.1.3 0 .6-.2.8l-.5.5c.6 1.3 1.6 2.3 2.9 2.9l.5-.5c.2-.2.5-.3.8-.2l1.7.8c.4.2.4.7.1 1-.9.9-2.2 1.1-3.3.5a9.4 9.4 0 01-4.3-4.3c-.6-1.1-.4-2.4.5-3.3z" fill="currentColor" stroke="none"/></svg></span><em><span class="es">Enviar mensaje</span><span class="en">Send a message</span></em></a>
       <a href="https://www.linkedin.com/in/rodvenegas/" target="_blank" rel="noopener"><small>LinkedIn</small><span>/in/rodvenegas</span></a>
       <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ150krW88gi3qEI_9_EWB2asxERTuKXue9Xz11zhF6QXgUVBFgU5hNF6f9EOUQEqR854AiA3kJ7" target="_blank" rel="noopener"><small><span class="es">Agendar llamada</span><span class="en">Book a call</span></small><span>Google Calendar</span><em><span class="es">30 min · L–V 8:00–12:00 (Bogotá)</span><span class="en">30 min · Mon–Fri 8–12 (Bogotá)</span></em></a>
     </div>
@@ -416,6 +416,7 @@ footer.foot b{color:#fff;font-family:var(--serif);letter-spacing:.08em}
   btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set);});});
   document.getElementById('yr').textContent=new Date().getFullYear();
   document.querySelectorAll('.js-mail').forEach(function(a){a.href='mailto:'+a.dataset.u+'@'+a.dataset.d;});
+  document.querySelectorAll('.js-wa').forEach(function(a){a.href='https://wa.me/'+a.dataset.n;});
 })();
 </script>
 </body>
