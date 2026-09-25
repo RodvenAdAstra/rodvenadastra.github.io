@@ -80,7 +80,7 @@ h2{font-family:var(--serif);font-size:clamp(28px,3.6vw,40px);line-height:1.18;co
 
 /* sobre mí */
 .about{display:grid;grid-template-columns:1.35fr 1fr;gap:56px;margin-top:44px;align-items:start}
-.about p{margin-bottom:16px;text-align:left}
+.about p{margin-bottom:16px}
 .callout{background:var(--tinte);border-left:3px solid var(--verde);padding:26px 28px}
 .callout h3{font-family:var(--serif);color:var(--verde);font-size:20px;margin-bottom:14px}
 .callout ul{list-style:none}
@@ -141,6 +141,10 @@ table.t td.k{color:var(--verde-medio);font-weight:700}
 .li-card b{display:block;font-family:var(--serif);font-size:18px;letter-spacing:.04em}
 .li-card small{display:block;color:#BFD3C7;font-size:14px;line-height:1.4}
 .li-card .go{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--oro)}
+.li-card > div:last-child{flex:1;text-align:center}
+.li-card .go{justify-content:center}
+/* texto justificado */
+.about p,.intro,.hero p.lead,.card p,.step p,.venture p,table.t td:last-child,.callout li{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
 .nav-li{color:#D5E2DA;display:inline-flex}
 .nav-li:hover{color:var(--oro)}
 .right{display:flex;align-items:center;gap:14px}
