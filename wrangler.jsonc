@@ -1,0 +1,13 @@
+{
+  // Configuración de Cloudflare Workers (hosting estático) para venegascapitalgroup.com
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "venegascapitalgroup",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./"
+  },
+  "routes": [
+    { "pattern": "venegascapitalgroup.com", "custom_domain": true },
+    { "pattern": "www.venegascapitalgroup.com", "custom_domain": true }
+  ]
+}
