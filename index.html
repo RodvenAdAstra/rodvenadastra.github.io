@@ -1,461 +1,177 @@
 <!DOCTYPE html>
-<html lang="es" data-lang="es">
+<html lang="es" data-lang="es" data-title-es="Venegas Capital Group · Estructuración financiera" data-title-en="Venegas Capital Group · Financial structuring">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rodrigo Venegas · Estructuración Financiera</title>
-<meta name="description" content="Rodrigo Venegas — abogado y banquero de inversión. Estructuración financiera, levantamiento de capital, M&A, due diligence y tokenización en LATAM y EE. UU.">
-<meta property="og:title" content="Rodrigo Venegas · Estructuración Financiera">
-<meta property="og:description" content="Estructuración financiera, levantamiento de capital, M&A y tokenización · Bogotá · Panamá · Miami">
+<title>Venegas Capital Group · Estructuración financiera</title>
+<meta name="description" content="Venegas Capital Group: estructuración de crédito, inversión, M&A, compraventa de activos, factoring y crédito cross-border con acompañamiento legal. Bogotá · Panamá · Miami.">
+<link rel="canonical" href="https://venegascapitalgroup.com/">
+<meta property="og:title" content="Venegas Capital Group · Estructuración financiera">
+<meta property="og:description" content="Venegas Capital Group: estructuración de crédito, inversión, M&A, compraventa de activos, factoring y crédito cross-border con acompañamiento legal. Bogotá · Panamá · Miami.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://venegascapitalgroup.com/">
+<meta property="og:image" content="https://venegascapitalgroup.com/assets/og.png">
+<meta property="og:locale" content="es_CO">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#143026">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23143026'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='%23A8894B' text-anchor='middle'%3ERV%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23143026'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='%23A8894B' text-anchor='middle'%3EVCG%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<style>
-:root{
-  --verde:#1E4434; --verde-medio:#33705A; --verde-osc:#143026;
-  --oro:#A8894B; --oro-txt:#8A6E3B; --burdeos:#8C2F39;
-  --carbon:#1C1F22; --gris:#5F6B6E; --gris-2:#9BA3A8; --borde:#D9E2DC;
-  --panel:#F4F7F5; --tinte:#EAF1ED; --blanco:#FFFFFF;
-  --serif:Georgia,"Times New Roman",serif;
-  --sans:Calibri,Carlito,"Segoe UI",Arial,sans-serif;
-  --max:1120px;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:var(--sans);color:var(--carbon);background:var(--blanco);font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:var(--verde-medio);text-decoration:none}
-a:hover{text-decoration:underline}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-
-/* idioma */
-[data-lang="es"] .en,[data-lang="en"] .es{display:none!important}
-
-/* nav */
-header.nav{position:sticky;top:0;z-index:50;background:rgba(20,48,38,.96);backdrop-filter:blur(6px);border-bottom:1px solid rgba(168,137,75,.35)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
-.brand{font-family:var(--serif);font-weight:700;letter-spacing:.08em;color:#fff;font-size:17px;white-space:nowrap}
-.brand span{color:var(--oro)}
-.nav ul{display:flex;list-style:none;gap:26px}
-.nav ul a{color:#D5E2DA;font-size:15px;letter-spacing:.06em;text-transform:uppercase}
-.nav ul a:hover{color:#fff;text-decoration:none}
-.lang{display:flex;border:1px solid rgba(168,137,75,.6)}
-.lang button{background:none;border:0;color:#D5E2DA;font:700 13px var(--sans);letter-spacing:.08em;padding:6px 10px;cursor:pointer}
-.lang button[aria-pressed="true"]{background:var(--oro);color:var(--verde-osc)}
-
-/* hero */
-.hero{position:relative;background:var(--verde-osc);color:#fff;overflow:hidden}
-.hero svg.bg{position:absolute;inset:0;width:100%;height:100%;opacity:.9}
-.hero .wrap{position:relative;padding:110px 24px 120px}
-.kicker{font:700 14px var(--sans);letter-spacing:.18em;text-transform:uppercase;color:#9CC7B2}
-.hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(38px,6vw,68px);line-height:1.08;margin:18px 0 10px;letter-spacing:.02em}
-.filete{width:120px;height:2px;background:var(--oro);margin:26px 0}
-.tagline{font-family:var(--serif);font-size:clamp(18px,2.2vw,23px);color:#E7EFEA;max-width:760px}
-.hero p.lead{margin-top:18px;color:#C6D6CD;max-width:680px;font-size:19px}
-.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
-.btn{display:inline-block;padding:14px 26px;font:700 15px var(--sans);letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--oro)}
-.btn.primary{background:var(--oro);color:var(--verde-osc)}
-.btn.ghost{color:#fff}
-.btn:hover{text-decoration:none;filter:brightness(1.08)}
-.loc{margin-top:34px;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#9CC7B2}
-
-/* cifras */
-.stats{background:var(--verde);color:#fff}
-.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
-.stat{padding:34px 22px;border-left:1px solid rgba(255,255,255,.12)}
-.stat:first-child{border-left:0}
-.stat b{display:block;font-family:var(--serif);font-size:38px;color:#fff;line-height:1.1}
-.stat span{font-size:15px;color:#BFD3C7}
-
-/* secciones */
-section.block{padding:96px 0}
-section.alt{background:var(--panel)}
-.band{display:flex;align-items:center;gap:16px;margin-bottom:12px}
-.band .num{font-family:var(--serif);font-weight:700;color:var(--oro-txt);font-size:15px;letter-spacing:.14em}
-.band .rule{flex:0 0 60px;height:1px;background:var(--oro)}
-h2{font-family:var(--serif);font-size:clamp(28px,3.6vw,40px);line-height:1.18;color:var(--verde);max-width:820px}
-.intro{margin-top:18px;color:var(--gris);max-width:760px;font-size:19px}
-
-/* sobre mí */
-.about{display:grid;grid-template-columns:1.35fr 1fr;gap:56px;margin-top:44px;align-items:start}
-.about p{margin-bottom:16px}
-.callout{background:var(--tinte);border-left:3px solid var(--verde);padding:26px 28px}
-.callout h3{font-family:var(--serif);color:var(--verde);font-size:20px;margin-bottom:14px}
-.callout ul{list-style:none}
-.callout li{padding:8px 0;border-bottom:1px solid var(--borde);font-size:16px}
-.callout li:last-child{border-bottom:0}
-.callout li b{color:var(--verde)}
-
-/* servicios */
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:48px;border-top:1px solid var(--borde);border-left:1px solid var(--borde)}
-.card{background:#fff;padding:34px 30px;border-right:1px solid var(--borde);border-bottom:1px solid var(--borde);position:relative}
-.card .ico{width:40px;height:40px;margin-bottom:18px}
-.card h3{font-family:var(--serif);font-size:21px;color:var(--verde);margin-bottom:10px;line-height:1.25}
-.card p{font-size:16px;color:var(--gris)}
-.card:hover{background:var(--tinte)}
-.grid.g4{grid-template-columns:repeat(4,1fr)}
-.grid.g4 .card p{text-align:left}
-.card:hover::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--verde)}
-
-/* metodología */
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:48px;counter-reset:s}
-.step{border-top:3px solid var(--verde);padding-top:20px}
-.step .n{font-family:var(--serif);font-weight:700;font-size:15px;color:var(--oro-txt);letter-spacing:.12em}
-.step h3{font-family:var(--serif);font-size:20px;color:var(--verde);margin:8px 0}
-.step p{font-size:16px;color:var(--gris)}
-
-/* sectores / trayectoria tabla */
-table.t{width:100%;border-collapse:collapse;margin-top:44px;font-size:16px;background:#fff}
-table.t th{background:var(--verde);color:#fff;text-align:left;padding:14px 18px;font-weight:700;letter-spacing:.04em}
-table.t td{padding:14px 18px;border-bottom:1px solid var(--borde);vertical-align:top}
-table.t tr:nth-child(even) td{background:#F7FAF8}
-table.t td:first-child{font-weight:700;color:var(--carbon);width:28%}
-table.t td.k{color:var(--verde-medio);font-weight:700}
-.src{font-size:13px;color:var(--gris-2);margin-top:10px}
-
-/* ventures */
-.ventures{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:44px}
-.venture{background:var(--verde-osc);color:#fff;padding:30px;position:relative;overflow:hidden}
-.venture::after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border:1px solid rgba(168,137,75,.45);border-radius:50%}
-.venture .tag{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--oro)}
-.venture h3{font-family:var(--serif);font-size:24px;line-height:1.2;margin:8px 0 10px}
-.venture p{font-size:16px;color:#C6D6CD}
-
-/* contacto */
-.contact{background:var(--verde-osc);color:#fff;position:relative;overflow:hidden}
-.contact h2{color:#fff}
-.contact .intro{color:#C6D6CD}
-.contact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:44px;background:rgba(168,137,75,.35);border:1px solid rgba(168,137,75,.35)}
-.contact-grid a,.contact-grid div{display:block;background:var(--verde-osc);padding:28px;color:#fff}
-.contact-grid a:hover{background:var(--verde);text-decoration:none}
-.contact-grid small{display:block;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--oro);margin-bottom:8px}
-.contact-grid > * > span{font-family:var(--serif);font-size:20px;word-break:break-word}
-.contact-grid .mail-ico{display:inline-flex;color:#fff}
-.contact-grid a:hover .mail-ico{color:var(--oro)}
-.contact-grid em{display:block;font-style:normal;font-size:13px;color:#9CC7B2;margin-top:6px;word-break:break-word}
-
-/* linkedin card */
-.li-card{display:flex;gap:18px;align-items:center;margin-top:18px;background:var(--verde-osc);color:#fff;padding:22px 24px;border-top:2px solid var(--oro)}
-.li-card:hover{text-decoration:none;background:var(--verde)}
-.li-mono{flex:0 0 56px;height:56px;border:1px solid var(--oro);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:700;color:var(--oro);font-size:20px}
-.li-card b{display:block;font-family:var(--serif);font-size:18px;letter-spacing:.04em}
-.li-card small{display:block;color:#BFD3C7;font-size:14px;line-height:1.4}
-.li-card .go{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--oro)}
-.li-card > div:last-child{flex:1;text-align:center}
-.li-card .go{justify-content:center}
-/* texto justificado */
-.about p,.intro,.hero p.lead,.card p,.step p,.venture p,table.t td:last-child,.callout li{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
-.nav-li{color:#D5E2DA;display:inline-flex}
-.nav-li:hover{color:var(--oro)}
-.right{display:flex;align-items:center;gap:14px}
-
-footer.foot{background:#0E231B;color:var(--gris-2);font-size:14px;padding:28px 0}
-footer.foot .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
-footer.foot b{color:#fff;font-family:var(--serif);letter-spacing:.08em}
-.disc{font-size:13px;color:#7F8A8E;max-width:640px}
-
-/* responsive */
-@media (max-width:960px){
-  .nav ul{display:none}
-  .stats .wrap{grid-template-columns:repeat(2,1fr)}
-  .stat:nth-child(3){border-left:0}
-  .stat{border-top:1px solid rgba(255,255,255,.12)}
-  .about{grid-template-columns:1fr;gap:32px}
-  .grid,.grid.g4,.ventures,.contact-grid{grid-template-columns:1fr 1fr}
-  .steps{grid-template-columns:1fr 1fr}
-}
-@media (max-width:600px){
-  body{font-size:17px}
-  .wrap{padding:0 16px}
-  .hero .wrap{padding:72px 16px 80px}
-  section.block{padding:64px 0}
-  .grid,.grid.g4,.ventures,.contact-grid,.steps{grid-template-columns:1fr}
-  .stat b{font-size:26px}
-  .stat{padding:24px 14px}
-  table.t td:first-child{width:auto}
-  table.t th,table.t td{padding:12px}
-  .brand{font-size:15px}
-}
-</style>
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Venegas Capital Group", "url": "https://venegascapitalgroup.com/", "description": "Estructuración financiera, crédito, inversión, M&A, compraventa de activos, factoring y crédito cross-border con acompañamiento legal.", "areaServed": ["Colombia", "Panamá", "Estados Unidos", "Latinoamérica", "Europa"], "address": {"@type": "PostalAddress", "addressLocality": "Bogotá", "addressCountry": "CO"}, "founder": {"@type": "Person", "name": "Rodrigo Venegas", "jobTitle": "Socio director", "sameAs": ["https://www.linkedin.com/in/rodvenegas/"]}, "sameAs": ["https://www.linkedin.com/in/rodvenegas/"], "knowsLanguage": ["es", "en"]}</script>
 </head>
 <body>
-
+<a class="skip" href="#main"><span class="es">Ir al contenido</span><span class="en">Skip to content</span></a>
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="#top">RODRIGO <span>VENEGAS</span></a>
-    <ul>
-      <li><a href="#perfil"><span class="es">Perfil</span><span class="en">About</span></a></li>
-      <li><a href="#clientes"><span class="es">Clientes</span><span class="en">Clients</span></a></li>
-      <li><a href="#servicios"><span class="es">Servicios</span><span class="en">Services</span></a></li>
-      <li><a href="#metodo"><span class="es">Método</span><span class="en">Approach</span></a></li>
-      <li><a href="#trayectoria"><span class="es">Trayectoria</span><span class="en">Track record</span></a></li>
-      <li><a href="#contacto"><span class="es">Contacto</span><span class="en">Contact</span></a></li>
+    <a class="brand" href="/" aria-label="Venegas Capital Group"><span class="mono">VCG</span><span class="name">VENEGAS<small>CAPITAL GROUP</small></span></a>
+    <ul class="menu">
+      <li class="has-sub"><a href="/servicios/"><span class="es">Servicios</span><span class="en">Services</span></a><ul class="sub"><li><a href="/servicios/credito/"><span class="es">Crédito corporativo y de proyectos</span><span class="en">Corporate & project credit</span></a></li><li><a href="/servicios/inversion/"><span class="es">Inversión y levantamiento de capital</span><span class="en">Investment & capital raising</span></a></li><li><a href="/servicios/fusiones-adquisiciones/"><span class="es">Fusiones y adquisiciones</span><span class="en">Mergers & acquisitions</span></a></li><li><a href="/servicios/compraventa-activos/"><span class="es">Compraventa de activos</span><span class="en">Asset sales & acquisitions</span></a></li><li><a href="/servicios/factoring/"><span class="es">Factoring local e internacional</span><span class="en">Domestic & international factoring</span></a></li><li><a href="/servicios/credito-cross-border/"><span class="es">Crédito cross-border</span><span class="en">Cross-border credit</span></a></li><li><a href="/servicios/acompanamiento-legal/"><span class="es">Acompañamiento legal transversal</span><span class="en">End-to-end legal support</span></a></li></ul></li>
+      <li><a href="/inteligencia-artificial/"><span class="es">IA aplicada</span><span class="en">Applied AI</span></a></li>
+      <li><a href="/firma/"><span class="es">La firma</span><span class="en">The firm</span></a></li>
+      <li><a href="/contacto/"><span class="es">Contacto</span><span class="en">Contact</span></a></li>
     </ul>
     <div class="right">
-    <a class="nav-li" href="https://www.linkedin.com/in/rodvenegas/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.5-2.25 3.1V21H9z"/></svg></a>
-    <div class="lang" role="group" aria-label="Idioma / Language">
-      <button type="button" data-set="es" aria-pressed="true">ES</button>
-      <button type="button" data-set="en" aria-pressed="false">EN</button>
-    </div>
+      <a class="nav-cta" href="https://meetings.hubspot.com/rodrigo578" target="_blank" rel="noopener"><span class="es">Agendar</span><span class="en">Book a call</span></a>
+      <div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-set="es" aria-pressed="true">ES</button><button type="button" data-set="en" aria-pressed="false">EN</button></div>
+      <button class="burger" type="button" aria-label="Menú" aria-expanded="false"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
     </div>
   </div>
 </header>
-
-<!-- HERO -->
-<section class="hero" id="top">
+<main id="main">
+<section class="hero">
   <svg class="bg" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-    <defs>
-      <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#143026"/><stop offset="1" stop-color="#1E4434"/>
-      </linearGradient>
-      <radialGradient id="glow" cx="78%" cy="40%" r="45%">
-        <stop offset="0" stop-color="#33705A" stop-opacity=".55"/><stop offset="1" stop-color="#143026" stop-opacity="0"/>
-      </radialGradient>
-      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-        <path d="M40 0H0V40" fill="none" stroke="#33705A" stroke-opacity=".18" stroke-width="1"/>
-      </pattern>
-    </defs>
-    <rect width="1200" height="700" fill="url(#g1)"/>
-    <rect width="1200" height="700" fill="url(#grid)"/>
-    <rect width="1200" height="700" fill="url(#glow)"/>
-    <g fill="none" stroke="#A8894B" stroke-opacity=".5">
-      <circle cx="930" cy="280" r="150"/>
-      <circle cx="930" cy="280" r="220" stroke-opacity=".25"/>
-      <circle cx="930" cy="280" r="300" stroke-opacity=".12"/>
-      <ellipse cx="930" cy="280" rx="300" ry="90" stroke-opacity=".3" transform="rotate(-18 930 280)"/>
-    </g>
-    <g stroke="#9CC7B2" stroke-opacity=".45" stroke-width="1">
-      <line x1="810" y1="190" x2="930" y2="280"/><line x1="930" y1="280" x2="1060" y2="210"/>
-      <line x1="930" y1="280" x2="1010" y2="400"/><line x1="810" y1="190" x2="860" y2="400"/>
-      <line x1="860" y1="400" x2="1010" y2="400"/><line x1="1060" y1="210" x2="1130" y2="330"/>
-      <line x1="1010" y1="400" x2="1130" y2="330"/><line x1="700" y1="300" x2="810" y2="190"/>
-      <line x1="700" y1="300" x2="860" y2="400"/>
-    </g>
-    <g fill="#A8894B">
-      <circle cx="930" cy="280" r="6"/><circle cx="810" cy="190" r="4"/><circle cx="1060" cy="210" r="4"/>
-      <circle cx="1010" cy="400" r="4"/><circle cx="860" cy="400" r="4"/><circle cx="1130" cy="330" r="3"/>
-      <circle cx="700" cy="300" r="3"/>
-    </g>
-    <g fill="none" stroke="#33705A" stroke-opacity=".6">
-      <rect x="880" y="460" width="46" height="46"/><rect x="936" y="460" width="46" height="46" stroke="#A8894B" stroke-opacity=".5"/>
-      <rect x="992" y="460" width="46" height="46"/><rect x="1048" y="460" width="46" height="46"/>
-    </g>
-  </svg>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E231B"/><stop offset="1" stop-color="#1E4434"/></linearGradient>
+    <radialGradient id="glow" cx="78%" cy="42%" r="48%"><stop offset="0" stop-color="#33705A" stop-opacity=".55"/><stop offset="1" stop-color="#143026" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#33705A" stroke-opacity=".16" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/><rect width="1200" height="700" fill="url(#grid)"/><rect width="1200" height="700" fill="url(#glow)"/>
+  <g fill="none" stroke="#A8894B" stroke-opacity=".5">
+    <circle cx="940" cy="300" r="140"/><circle cx="940" cy="300" r="215" stroke-opacity=".25"/><circle cx="940" cy="300" r="300" stroke-opacity=".12"/>
+    <ellipse cx="940" cy="300" rx="300" ry="90" stroke-opacity=".3" transform="rotate(-18 940 300)"/>
+  </g>
+  <g stroke="#9CC7B2" stroke-opacity=".4"><line x1="940" y1="300" x2="940" y2="160"/><line x1="940" y1="300" x2="1061" y2="230"/><line x1="940" y1="300" x2="1061" y2="370"/><line x1="940" y1="300" x2="940" y2="440"/><line x1="940" y1="300" x2="819" y2="370"/><line x1="940" y1="300" x2="819" y2="230"/></g>
+  <g fill="#A8894B"><circle cx="940" cy="300" r="7"/><circle cx="940" cy="160" r="4"/><circle cx="1061" cy="230" r="4"/><circle cx="1061" cy="370" r="4"/><circle cx="940" cy="440" r="4"/><circle cx="819" cy="370" r="4"/><circle cx="819" cy="230" r="4"/></g>
+</svg>
   <div class="wrap">
-    <div class="kicker"><span class="es">Asesoría independiente · LATAM &amp; EE. UU.</span><span class="en">Independent advisory · LATAM &amp; U.S.</span></div>
-    <h1>RODRIGO VENEGAS</h1>
-    <div class="tagline"><span class="es">Banca Privada · Estructuración Financiera · Derecho Fintech</span><span class="en">Private Banking · Financial Structuring · Fintech Law</span></div>
+    
+    <div class="kicker"><span class="es">Banca de inversión · Estructuración · Derecho financiero</span><span class="en">Investment banking · Structuring · Financial law</span></div>
+    <h1><span class="es">Toda gran transacción <em>empieza por estructurar</em></span><span class="en">Every great transaction <em>starts with structure</em></span></h1>
     <div class="filete"></div>
-    <p class="lead">
-      <span class="es">Preparo empresas y proyectos para levantar deuda o capital: estructuración, due diligence y conceptos de bancabilidad con rigor legal y financiero integrado.</span>
-      <span class="en">I prepare companies and projects to raise debt or equity: structuring, due diligence and bankability opinions with an integrated legal and financial lens.</span>
-    </p>
+    <p class="es lead">Venegas Capital Group estructura crédito, inversión, fusiones y adquisiciones, compraventa de activos, factoring y fondeo cross-border para empresas y proyectos en Latinoamérica, Estados Unidos y Europa, con acompañamiento legal en cada operación.</p><p class="en lead">Venegas Capital Group structures credit, investment, M&A, asset sales, factoring and cross-border funding for companies and projects across Latin America, the United States and Europe, with legal support on every transaction.</p>
     <div class="cta">
       <a class="btn primary" href="https://meetings.hubspot.com/rodrigo578" target="_blank" rel="noopener"><span class="es">Agendar una conversación</span><span class="en">Book a conversation</span></a>
-      <a class="btn ghost" href="#servicios"><span class="es">Ver servicios</span><span class="en">View services</span></a>
+      <a class="btn ghost" href="/servicios/"><span class="es">Ver servicios</span><span class="en">View services</span></a>
     </div>
     <div class="loc">Bogotá · Panamá · Miami</div>
   </div>
-</section>
-
-<!-- CIFRAS -->
-<section class="stats" aria-label="Cifras">
+</section><section class="stats" aria-label="Cifras">
   <div class="wrap">
-    <div class="stat"><b>18+</b><span class="es">años de experiencia</span><span class="en">years of experience</span></div>
+    <div class="stat"><b>18+</b><span class="es">años en banca y estructuración</span><span class="en">years in banking & structuring</span></div>
     <div class="stat"><b>USD 300M+</b><span class="es">en transacciones estructuradas</span><span class="en">in structured transactions</span></div>
-    <div class="stat"><b>3</b><span class="es">plazas: Bogotá · Panamá · Miami</span><span class="en">hubs: Bogotá · Panama · Miami</span></div>
+    <div class="stat"><b>5</b><span class="es">mercados de fondeo: CO · PA · EE. UU. · UK · EAU</span><span class="en">funding markets: CO · PA · U.S. · UK · UAE</span></div>
     <div class="stat"><b>10+</b><span class="es">empresas fundadas · 2 exits</span><span class="en">companies founded · 2 exits</span></div>
   </div>
-</section>
-
-<!-- PERFIL -->
-<section class="block" id="perfil">
+</section><section class="block " id="servicios">
   <div class="wrap">
     <div class="band"><span class="num">01</span><span class="rule"></span></div>
-    <h2><span class="es">Un perfil legal y financiero integrado para llevar su proyecto a la mesa del inversionista</span><span class="en">An integrated legal and financial profile to bring your project to the investor's table</span></h2>
+    <h2><span class="es">Una sola puerta de entrada para siete tipos de transacción</span><span class="en">One point of entry for seven types of transaction</span></h2>
+    <p class="es intro">Antes de hablar con un banco, un fondo o un comprador, la operación tiene que estar estructurada: información ordenada, riesgos identificados y una estructura que el fondeador pueda aprobar. Desde ahí acompañamos cualquiera de estas transacciones hasta el cierre.</p><p class="en intro">Before talking to a bank, a fund or a buyer, the transaction has to be structured: organized information, identified risks and a structure the funder can approve. From there we carry any of these transactions through to closing.</p>
+    <div class="hub"><svg viewBox="0 0 720 520" role="img" aria-label="Estructuración al centro de siete líneas de servicio / Structuring at the center of seven service lines">
+  <circle cx="360" cy="225" r="180" fill="none" stroke="#D9E2DC" stroke-dasharray="4 6"/>
+  <g stroke="#33705A" stroke-width="1.5"><line x1="360" y1="225" x2="360" y2="45"/><line x1="360" y1="225" x2="516" y2="135"/><line x1="360" y1="225" x2="516" y2="315"/><line x1="360" y1="225" x2="360" y2="405"/><line x1="360" y1="225" x2="204" y2="315"/><line x1="360" y1="225" x2="204" y2="135"/></g>
+  <circle cx="360" cy="225" r="86" fill="#143026" stroke="#A8894B" stroke-width="2"/>
+  <circle cx="360" cy="225" r="98" fill="none" stroke="#A8894B" stroke-opacity=".4"/>
+  <text class="es" x="360" y="221" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#fff" letter-spacing="1.5">ESTRUCTURACIÓN</text>
+  <text class="en" x="360" y="221" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#fff" letter-spacing="1.5">STRUCTURING</text>
+  <text class="es" x="360" y="245" text-anchor="middle" font-family="Calibri,Carlito,Arial,sans-serif" font-size="13" fill="#C9AE74" letter-spacing="2">PUERTA DE ENTRADA</text>
+  <text class="en" x="360" y="245" text-anchor="middle" font-family="Calibri,Carlito,Arial,sans-serif" font-size="13" fill="#C9AE74" letter-spacing="2">POINT OF ENTRY</text>
+  <a href="/servicios/credito/"><rect class="lbl" x="262" y="23" width="196" height="44" fill="#fff" stroke="#A8894B"/><text class="lt es" x="360" y="51" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Crédito</text><text class="lt en" x="360" y="51" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Credit</text></a><a href="/servicios/inversion/"><rect class="lbl" x="418" y="113" width="196" height="44" fill="#fff" stroke="#A8894B"/><text class="lt es" x="516" y="141" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Inversión y capital</text><text class="lt en" x="516" y="141" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Investment & equity</text></a><a href="/servicios/fusiones-adquisiciones/"><rect class="lbl" x="418" y="293" width="196" height="44" fill="#fff" stroke="#A8894B"/><text class="lt es" x="516" y="321" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">M&A</text><text class="lt en" x="516" y="321" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">M&A</text></a><a href="/servicios/compraventa-activos/"><rect class="lbl" x="262" y="383" width="196" height="44" fill="#fff" stroke="#A8894B"/><text class="lt es" x="360" y="411" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Compraventa de activos</text><text class="lt en" x="360" y="411" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Asset sales</text></a><a href="/servicios/factoring/"><rect class="lbl" x="106" y="293" width="196" height="44" fill="#fff" stroke="#A8894B"/><text class="lt es" x="204" y="321" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Factoring</text><text class="lt en" x="204" y="321" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Factoring</text></a><a href="/servicios/credito-cross-border/"><rect class="lbl" x="106" y="113" width="196" height="44" fill="#fff" stroke="#A8894B"/><text class="lt es" x="204" y="141" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Crédito cross-border</text><text class="lt en" x="204" y="141" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#1E4434">Cross-border credit</text></a>
+  <a href="/servicios/acompanamiento-legal/"><rect class="lbl" x="40" y="452" width="640" height="52" fill="#143026"/>
+  <text class="lt es" x="360" y="484" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#fff">Acompañamiento legal en todas las transacciones</text>
+  <text class="lt en" x="360" y="484" text-anchor="middle" font-family="Georgia,serif" font-size="17" fill="#fff">Legal support across every transaction</text></a>
+</svg></div><div class="grid"><a class="card" href="/servicios/credito/"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><path d="M6 34V20M16 34V12M26 34V16M36 34V6"/><path d="M4 34h34" stroke="#A8894B"/></svg><h3><span class="es">Crédito corporativo y de proyectos</span><span class="en">Corporate & project credit</span></h3><p><span class="es">Deuda senior, capital de trabajo, consolidación de pasivos y financiación de proyectos con banca en Colombia y Panamá.</span><span class="en">Senior debt, working capital, liability consolidation and project finance with banks in Colombia and Panama.</span></p><span class="more"><span class="es">Ver servicio →</span><span class="en">View service →</span></span></a><a class="card" href="/servicios/inversion/"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><circle cx="20" cy="20" r="14"/><path d="M20 10v20M15 15h8a3 3 0 010 6h-6a3 3 0 000 6h9" stroke="#A8894B"/></svg><h3><span class="es">Inversión y levantamiento de capital</span><span class="en">Investment & capital raising</span></h3><p><span class="es">Equity, deuda privada y mezzanine con fondos, family offices e inversionistas en Estados Unidos, Europa, Reino Unido y Emiratos.</span><span class="en">Equity, private debt and mezzanine with funds, family offices and investors in the U.S., Europe, the U.K. and the UAE.</span></p><span class="more"><span class="es">Ver servicio →</span><span class="en">View service →</span></span></a><a class="card" href="/servicios/fusiones-adquisiciones/"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><circle cx="14" cy="20" r="9"/><circle cx="26" cy="20" r="9" stroke="#A8894B"/></svg><h3><span class="es">Fusiones y adquisiciones</span><span class="en">Mergers & acquisitions</span></h3><p><span class="es">Compra y venta de empresas: valoración, búsqueda de contraparte, due diligence, negociación y documentación.</span><span class="en">Buy-side and sell-side: valuation, counterparty search, due diligence, negotiation and documentation.</span></p><span class="more"><span class="es">Ver servicio →</span><span class="en">View service →</span></span></a><a class="card" href="/servicios/compraventa-activos/"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><path d="M6 34V16l14-9 14 9v18z"/><path d="M14 34V24h12v10" stroke="#A8894B"/></svg><h3><span class="es">Compraventa de activos</span><span class="en">Asset sales & acquisitions</span></h3><p><span class="es">Venta y compra de activos de energía, inmobiliarios, logísticos y carteras de crédito, con data room y debida diligencia listos.</span><span class="en">Sale and purchase of energy, real estate and logistics assets and loan books, with data room and due diligence ready.</span></p><span class="more"><span class="es">Ver servicio →</span><span class="en">View service →</span></span></a><a class="card" href="/servicios/factoring/"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><path d="M9 5h16l6 6v24H9z"/><path d="M14 17h12M14 23h12" stroke="#A8894B"/><path d="M14 29h6"/></svg><h3><span class="es">Factoring local e internacional</span><span class="en">Domestic & international factoring</span></h3><p><span class="es">Liquidez sobre cuentas por cobrar en Colombia y en el exterior: factoring, confirming y financiación de exportaciones.</span><span class="en">Liquidity on receivables in Colombia and abroad: factoring, reverse factoring and export finance.</span></p><span class="more"><span class="es">Ver servicio →</span><span class="en">View service →</span></span></a><a class="card" href="/servicios/credito-cross-border/"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><circle cx="20" cy="20" r="14"/><path d="M6 20h28M20 6c5 4 5 24 0 28M20 6c-5 4-5 24 0 28" stroke="#A8894B"/></svg><h3><span class="es">Crédito cross-border</span><span class="en">Cross-border credit</span></h3><p><span class="es">Fondeo desde Estados Unidos, Europa, Reino Unido y Emiratos para empresas y proyectos latinoamericanos.</span><span class="en">Funding from the U.S., Europe, the U.K. and the UAE for Latin American companies and projects.</span></p><span class="more"><span class="es">Ver servicio →</span><span class="en">View service →</span></span></a><a class="card legal" href="/servicios/acompanamiento-legal/"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#A8894B" stroke-width="2" aria-hidden="true"><path d="M20 5v30M10 35h20"/><path d="M8 13h24" stroke="#A8894B"/><path d="M8 13l-5 11h10zM32 13l-5 11h10z"/></svg><div><h3><span class="es">Acompañamiento legal transversal</span><span class="en">End-to-end legal support</span></h3><p><span class="es">Por debajo de las seis líneas: el mismo equipo que diseña la estructura financiera redacta y negocia los documentos, desde el term sheet hasta el cierre, en español e inglés.</span><span class="en">Underpinning all six lines: the same team that designs the financial structure drafts and negotiates the documents, from term sheet to closing, in Spanish and English.</span></p><span class="more" style="color:var(--oro)"><span class="es">Ver servicio →</span><span class="en">View service →</span></span></div></a></div>
+  </div>
+</section><section class="block alt">
+  <div class="wrap">
+    <div class="band"><span class="num">02</span><span class="rule"></span></div>
+    <h2><span class="es">Trabajamos con cuatro tipos de cliente que necesitan capital o liquidez</span><span class="en">We work with four types of clients that need capital or liquidity</span></h2>
+    
+    <div class="grid g4"><div class="card"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><rect x="6" y="10" width="28" height="20"/><path d="M6 16h28" stroke="#A8894B"/><path d="M11 24h8"/></svg><h3><span class="es">Originadoras de crédito</span><span class="en">Credit originators</span></h3><p><span class="es">Fintech, factoring y libranza cuya cartera crece más rápido que su fondeo: segundo fondeador, compradores de cartera y titularización.</span><span class="en">Fintech, factoring and payroll lenders whose book grows faster than their funding: second funder, loan-book buyers and securitization.</span></p></div><div class="card"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><path d="M6 34V14l10-6v26M16 34V18l18-6v22"/><path d="M4 34h32" stroke="#A8894B"/></svg><h3><span class="es">Empresas medianas</span><span class="en">Mid-sized companies</span></h3><p><span class="es">Empresas con deuda cara o fragmentada, que necesitan liquidez o a las que el banco les dice que no sin explicar por qué.</span><span class="en">Companies with expensive or fragmented debt, in need of liquidity, or turned down by banks without a clear reason.</span></p></div><div class="card"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><circle cx="20" cy="14" r="6" stroke="#A8894B"/><path d="M20 4v3M20 21v3M10 14H7M33 14h-3"/><path d="M6 34l6-10h16l6 10z"/></svg><h3><span class="es">Desarrolladores de proyectos</span><span class="en">Project developers</span></h3><p><span class="es">Proyectos de energía e inmobiliarios con licencias avanzadas y sin cierre financiero, en Colombia y la región.</span><span class="en">Energy and real estate projects with permits in place and no financial close, in Colombia and the region.</span></p></div><div class="card"><svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2" aria-hidden="true"><path d="M8 20h24M24 12l8 8-8 8"/><path d="M8 12v16" stroke="#A8894B"/></svg><h3><span class="es">Compradores e inversionistas</span><span class="en">Buyers & investors</span></h3><p><span class="es">Fondos, family offices y compradores estratégicos que buscan empresas y activos depurados, con data room listo.</span><span class="en">Funds, family offices and strategic buyers looking for vetted companies and assets, with data room ready.</span></p></div></div>
+  </div>
+</section><section class="block ">
+  <div class="wrap">
+    <div class="band"><span class="num">03</span><span class="rule"></span></div>
+    <h2><span class="es">Un proceso en cuatro fases que reduce el riesgo de rechazo</span><span class="en">A four-phase process that reduces the risk of rejection</span></h2>
+    
+    <div class="steps"><div class="step"><div class="n"><span class="es">FASE 1</span><span class="en">PHASE 1</span></div><h3><span class="es">Diagnóstico</span><span class="en">Diagnosis</span></h3><p><span class="es">Lectura de estados financieros, estructura societaria y necesidad real de financiación.</span><span class="en">Review of financial statements, corporate structure and actual funding need.</span></p></div><div class="step"><div class="n"><span class="es">FASE 2</span><span class="en">PHASE 2</span></div><h3>Due diligence</h3><p><span class="es">Hallazgos priorizados por severidad y plan de acción para cerrar brechas antes de ir al mercado.</span><span class="en">Findings ranked by severity and an action plan to close gaps before going to market.</span></p></div><div class="step"><div class="n"><span class="es">FASE 3</span><span class="en">PHASE 3</span></div><h3><span class="es">Estructuración</span><span class="en">Structuring</span></h3><p><span class="es">Estructura, escenarios de estrés, documentos legales y material para inversionistas de estándar institucional.</span><span class="en">Structure, stress scenarios, legal documents and institutional-grade investor materials.</span></p></div><div class="step"><div class="n"><span class="es">FASE 4</span><span class="en">PHASE 4</span></div><h3><span class="es">Colocación y cierre</span><span class="en">Placement & closing</span></h3><p><span class="es">Presentación a fondeadores o compradores, negociación de términos y acompañamiento hasta el desembolso.</span><span class="en">Introduction to funders or buyers, term negotiation and support through disbursement.</span></p></div></div>
+  </div>
+</section><section class="block dark">
+  <div class="wrap">
+    <div class="band"><span class="num">04</span><span class="rule"></span></div>
+    <h2><span class="es">Inteligencia artificial aplicada a cada fase de la estructuración</span><span class="en">Artificial intelligence applied to every phase of structuring</span></h2>
+    <p class="es intro">Usamos IA para hacer en días lo que antes tomaba semanas: leer estados financieros, organizar data rooms, cruzar operaciones con fondeadores y vigilar covenants. El criterio y la firma siguen siendo de un profesional con 18 años de experiencia.</p><p class="en intro">We use AI to do in days what used to take weeks: reading financial statements, organizing data rooms, matching deals with funders and monitoring covenants. The judgment and the sign-off remain with a professional with 18 years of experience.</p>
+    <div class="ai-grid"><div class="ai"><div class="tag"><span class="es">Diagnóstico</span><span class="en">Diagnosis</span></div><h3><span class="es">Diagnóstico de bancabilidad exprés</span><span class="en">Express bankability diagnosis</span></h3><p><span class="es">En 48 a 72 horas, a partir de estados financieros, extractos y certificados: semáforo de elegibilidad, capacidad máxima de deuda y brechas a cerrar antes de ir al banco.</span><span class="en">In 48 to 72 hours, from financial statements, bank statements and certificates: eligibility rating, maximum debt capacity and gaps to close before approaching the bank.</span></p><ul><li><span class="es">Semáforo Cumple · Vigilar · Alerta</span><span class="en">Pass · Watch · Alert rating</span></li><li><span class="es">Capacidad máxima de deuda</span><span class="en">Maximum debt capacity</span></li><li><span class="es">Plan de acción priorizado</span><span class="en">Prioritized action plan</span></li></ul></div><div class="ai"><div class="tag"><span class="es">Colocación</span><span class="en">Placement</span></div><h3><span class="es">Matching de fondeadores</span><span class="en">Funder matching</span></h3><p><span class="es">Cruzamos el perfil de la operación con el apetito de bancos, fondos y compradores de cartera de nuestra red para priorizar a quién presentarla.</span><span class="en">We match the deal profile against the appetite of banks, funds and loan-book buyers in our network to prioritize who to approach.</span></p><ul><li><span class="es">Lista corta de fondeadores</span><span class="en">Funder shortlist</span></li><li><span class="es">Encaje por ticket, sector y garantías</span><span class="en">Fit by ticket, sector and collateral</span></li><li><span class="es">Orden de acercamiento recomendado</span><span class="en">Recommended outreach sequence</span></li></ul></div><div class="ai"><div class="tag"><span class="es">Seguimiento</span><span class="en">Monitoring</span></div><h3><span class="es">Monitoreo de covenants</span><span class="en">Covenant monitoring</span></h3><p><span class="es">Después del cierre, un tablero mensual con semáforo de covenants y alertas tempranas para el cliente y el fondeador.</span><span class="en">After closing, a monthly dashboard with covenant ratings and early warnings for the client and the lender.</span></p><ul><li><span class="es">Tablero mensual</span><span class="en">Monthly dashboard</span></li><li><span class="es">Alertas tempranas de incumplimiento</span><span class="en">Early breach warnings</span></li><li><span class="es">Reporte para el fondeador</span><span class="en">Lender reporting</span></li></ul></div><div class="ai"><div class="tag">Legal</div><h3><span class="es">Revisión contractual bilingüe</span><span class="en">Bilingual contract review</span></h3><p><span class="es">Marcamos riesgos, cláusulas fuera de mercado y diferencias entre las versiones en español e inglés de cada contrato.</span><span class="en">We flag risks, off-market clauses and discrepancies between the Spanish and English versions of each agreement.</span></p><ul><li><span class="es">Matriz de riesgos por cláusula</span><span class="en">Clause-by-clause risk matrix</span></li><li><span class="es">Comparación de versiones ES/EN</span><span class="en">ES/EN version comparison</span></li><li><span class="es">Propuesta de redacción</span><span class="en">Proposed wording</span></li></ul></div></div><div class="cta"><a class="btn primary" href="/inteligencia-artificial/"><span class="es">Ver los ocho servicios con IA</span><span class="en">See all eight AI services</span></a></div>
+  </div>
+</section><section class="block alt">
+  <div class="wrap">
+    <div class="band"><span class="num">05</span><span class="rule"></span></div>
+    <h2><span class="es">Una firma que integra la banca de inversión y el derecho financiero</span><span class="en">A firm that integrates investment banking and financial law</span></h2>
+    
     <div class="about">
       <div>
-        <p class="es">Soy abogado y banquero de inversión con más de 18 años en estructuración financiera, fusiones y adquisiciones y levantamiento de capital en América Latina y Estados Unidos. He participado en transacciones que superan los USD 300 millones en energía, farmacéutico, activos reales e inmobiliario.</p>
-        <p class="en">I am a lawyer and investment banker with more than 18 years in financial structuring, M&amp;A and capital raising across Latin America and the United States. I have worked on transactions exceeding USD 300 million in energy, pharma, real assets and real estate.</p>
-        <p class="es">Mi trabajo consiste en convertir una empresa o un proyecto en una oportunidad financiable: ordenar la información, identificar riesgos antes que el banco o el fondo, diseñar la estructura adecuada y acompañar el proceso hasta el cierre.</p>
-        <p class="en">My job is to turn a company or project into a financeable opportunity: organize the information, identify risks before the bank or fund does, design the right structure and support the process through closing.</p>
-        <p class="es">Integro herramientas de inteligencia artificial en la práctica para acelerar due diligence, modelación y análisis multijurisdiccional, sin sacrificar el criterio profesional.</p>
-        <p class="en">I integrate artificial intelligence tools into the practice to accelerate due diligence, modeling and multi-jurisdictional analysis without compromising professional judgment.</p>
+        <p class="es">Venegas Capital Group está liderada por Rodrigo Venegas, abogado y banquero de inversión con más de 18 años en banca privada, estructuración financiera, fusiones y adquisiciones y levantamiento de capital en Latinoamérica, Estados Unidos y Europa.</p><p class="en">Venegas Capital Group is led by Rodrigo Venegas, a lawyer and investment banker with more than 18 years in private banking, financial structuring, M&A and capital raising across Latin America, the United States and Europe.</p>
+        <p class="es">La firma reúne en un mismo equipo el análisis financiero y el criterio legal. El resultado son operaciones que llegan al comité con los riesgos resueltos y documentos que reflejan exactamente lo que se negoció.</p><p class="en">The firm brings financial analysis and legal judgment together in one team. The result is transactions that reach the committee with risks resolved and documents that reflect exactly what was negotiated.</p>
+        <div class="cta" style="margin-top:28px"><a class="btn dark" href="/firma/"><span class="es">Conocer la firma y la trayectoria</span><span class="en">Meet the firm and its track record</span></a></div>
       </div>
       <aside class="callout">
-        <h3><span class="es">Formación y credenciales</span><span class="en">Education &amp; credentials</span></h3>
+        <h3><span class="es">Socio director</span><span class="en">Managing partner</span></h3>
         <ul>
-          <li><b><span class="es">Abogado</span><span class="en">J.D. (Abogado)</span></b> — Universidad de La Sabana</li>
-          <li><b>EMBA</b> — Quantic School of Business and Technology, Washington D.C.</li>
-          <li><b>Blockchain &amp; DApps</b> — <span class="es">certificación</span><span class="en">certification</span></li>
-          <li><b><span class="es">IA: desarrollo y gobernanza</span><span class="en">AI development &amp; governance</span></b> — <span class="es">certificaciones Anthropic · Gemini</span><span class="en">Anthropic · Gemini certifications</span></li>
-          <li><b><span class="es">Idiomas</span><span class="en">Languages</span></b> — <span class="es">Español nativo · Inglés C2</span><span class="en">Native Spanish · C2 English</span></li>
+          <li><b>Rodrigo Venegas</b></li>
+          <li><span class="es">Abogado, Universidad de La Sabana</span><span class="en">Law degree (LL.B.), Universidad de La Sabana</span></li>
+          <li>EMBA — Quantic School of Business and Technology, Washington D.C.</li>
+          <li><span class="es">Certificaciones en blockchain y en desarrollo y gobierno de IA</span><span class="en">Certifications in blockchain and in AI development & governance</span></li>
+          <li><span class="es">Español nativo · Inglés C2</span><span class="en">Native Spanish · C2 English</span></li>
         </ul>
-        <a class="li-card" href="https://www.linkedin.com/in/rodvenegas/" target="_blank" rel="noopener">
-          <div class="li-mono"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.5-2.25 3.1V21H9z"/></svg></div>
-          <div>
-            <b>RODRIGO VENEGAS</b>
-            <small><span class="es">Banca Privada · Estructuración Financiera · Derecho Fintech</span><span class="en">Private Banking · Financial Structuring · Fintech Law</span></small>
-            <span class="go"><span class="es">Ver perfil en LinkedIn →</span><span class="en">View LinkedIn profile →</span></span>
-          </div>
-        </a>
       </aside>
     </div>
   </div>
-</section>
-
-<!-- CLIENTES -->
-<section class="block alt" id="clientes">
+</section><section class="block contact">
   <div class="wrap">
-    <div class="band"><span class="num">02</span><span class="rule"></span></div>
-    <h2><span class="es">Trabajo con cuatro tipos de cliente que necesitan capital para crecer</span><span class="en">I work with four types of clients that need capital to grow</span></h2>
-    <div class="grid g4">
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><rect x="6" y="10" width="28" height="20"/><path d="M6 16h28" stroke="#A8894B"/><path d="M11 24h8"/></svg>
-        <h3><span class="es">Originadoras de crédito</span><span class="en">Credit originators</span></h3>
-        <p><span class="es">Fintech, factoring y libranza cuya cartera crece más rápido que su fondeo. Diagnóstico de la cartera, segundo fondeador, compradores de cartera y titularización o tokenización.</span><span class="en">Fintech, factoring and payroll lenders whose loan book grows faster than their funding. Portfolio diagnosis, a second funder, loan-book buyers and securitization or tokenization.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><path d="M6 34V14l10-6v26M16 34V18l18-6v22"/><path d="M4 34h32" stroke="#A8894B"/></svg>
-        <h3><span class="es">Empresas medianas</span><span class="en">Mid-sized companies</span></h3>
-        <p><span class="es">Empresas con deuda cara o fragmentada, o a las que el banco les dice que no sin explicar por qué. Informe de elegibilidad crediticia y gestión ante banca en Colombia y Panamá.</span><span class="en">Companies with expensive or fragmented debt, or turned down by banks without a clear reason. Credit-eligibility report and placement with banks in Colombia and Panama.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><circle cx="20" cy="14" r="6" stroke="#A8894B"/><path d="M20 4v3M20 21v3M10 14H7M33 14h-3"/><path d="M6 34l6-10h16l6 10z"/></svg>
-        <h3><span class="es">Desarrolladores de proyectos</span><span class="en">Project developers</span></h3>
-        <p><span class="es">Proyectos de energía e inmobiliarios con licencias avanzadas y sin cierre financiero. Due diligence por proyecto, con precio por volumen, y levantamiento de deuda o capital.</span><span class="en">Energy and real estate projects with permits in place but no financial close. Per-project due diligence with volume pricing, and debt or equity raising.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><path d="M8 20h24M24 12l8 8-8 8"/><path d="M8 12v16" stroke="#A8894B"/></svg>
-        <h3><span class="es">Compradores e inversionistas</span><span class="en">Buyers &amp; investors</span></h3>
-        <p><span class="es">Fondos, desarrolladores capitalizados e inversionistas que buscan activos depurados, en especial solares en Colombia, con data room y debida diligencia listos bajo confidencialidad.</span><span class="en">Funds, well-capitalized developers and investors looking for vetted assets, especially solar in Colombia, with data room and due diligence ready under NDA.</span></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICIOS -->
-<section class="block" id="servicios">
-  <div class="wrap">
-    <div class="band"><span class="num">03</span><span class="rule"></span></div>
-    <h2><span class="es">Seis servicios que cubren el ciclo completo, del diagnóstico al cierre</span><span class="en">Six services covering the full cycle, from diagnosis to closing</span></h2>
-    <div class="grid">
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><path d="M6 34V20M16 34V12M26 34V16M36 34V6"/><path d="M4 34h34" stroke="#A8894B"/></svg>
-        <h3><span class="es">Estructuración financiera</span><span class="en">Financial structuring</span></h3>
-        <p><span class="es">Diseño de la estructura de deuda, capital o mezzanine adecuada al flujo de caja y al perfil de riesgo del proyecto.</span><span class="en">Design of the debt, equity or mezzanine structure that fits the project's cash flow and risk profile.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><circle cx="20" cy="20" r="14"/><path d="M20 10v20M15 15h8a3 3 0 010 6h-6a3 3 0 000 6h9" stroke="#A8894B"/></svg>
-        <h3><span class="es">Levantamiento de capital</span><span class="en">Capital raising</span></h3>
-        <p><span class="es">Acceso a bancos, fondos, banca de inversión e inversionistas privados en Colombia, Panamá, EE. UU., Reino Unido y Emiratos Árabes Unidos.</span><span class="en">Access to banks, funds, investment banks and private investors in Colombia, Panama, the U.S., the U.K. and the UAE.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><circle cx="17" cy="17" r="10"/><path d="M25 25l10 10" stroke="#A8894B"/><path d="M13 17l3 3 5-6"/></svg>
-        <h3><span class="es">Due diligence y bancabilidad</span><span class="en">Due diligence &amp; bankability</span></h3>
-        <p><span class="es">Revisión financiera, legal y de cumplimiento con concepto de bancabilidad e informe de elegibilidad crediticia: capacidad máxima de deuda, escenarios de estrés y plan de acción antes de ir al comité.</span><span class="en">Financial, legal and compliance review with a bankability opinion and credit-eligibility report: maximum debt capacity, stress scenarios and an action plan before the credit committee.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><circle cx="13" cy="20" r="8"/><circle cx="27" cy="20" r="8" stroke="#A8894B"/></svg>
-        <h3><span class="es">Fusiones y adquisiciones</span><span class="en">Mergers &amp; acquisitions</span></h3>
-        <p><span class="es">Acompañamiento en compra, venta e integración de empresas: valoración, negociación y documentación de la transacción.</span><span class="en">Buy-side and sell-side support: valuation, negotiation and transaction documentation.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><path d="M20 4l14 8v16l-14 8-14-8V12z"/><path d="M20 20l14-8M20 20v16M20 20L6 12" stroke="#A8894B"/></svg>
-        <h3><span class="es">Tokenización de activos reales</span><span class="en">Real-world asset tokenization</span></h3>
-        <p><span class="es">Estructuras legales y tecnológicas para tokenizar activos reales y fiduciarios con cumplimiento regulatorio.</span><span class="en">Legal and technology structures to tokenize real and fiduciary assets with regulatory compliance.</span></p>
-      </div>
-      <div class="card">
-        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="#1E4434" stroke-width="2"><path d="M8 6h18l6 6v22H8z"/><path d="M14 18h12M14 24h12M14 30h7" stroke="#A8894B"/></svg>
-        <h3><span class="es">Derecho fintech y contratos</span><span class="en">Fintech law &amp; contracts</span></h3>
-        <p><span class="es">Contratos de asesoría, comisión y colaboración, bilingües cuando la contraparte es internacional.</span><span class="en">Advisory, commission and partnership agreements, bilingual when the counterparty is international.</span></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- MÉTODO -->
-<section class="block alt" id="metodo">
-  <div class="wrap">
-    <div class="band"><span class="num">04</span><span class="rule"></span></div>
-    <h2><span class="es">Un proceso en cuatro fases que reduce el riesgo de rechazo en comité</span><span class="en">A four-phase process that reduces the risk of rejection at committee</span></h2>
-    <div class="steps">
-      <div class="step"><div class="n"><span class="es">FASE 1</span><span class="en">PHASE 1</span></div><h3><span class="es">Diagnóstico</span><span class="en">Diagnosis</span></h3><p><span class="es">Lectura de estados financieros, estructura societaria y necesidad real de financiación.</span><span class="en">Review of financial statements, corporate structure and actual funding need.</span></p></div>
-      <div class="step"><div class="n"><span class="es">FASE 2</span><span class="en">PHASE 2</span></div><h3>Due diligence</h3><p><span class="es">Hallazgos priorizados por severidad y plan de acción para cerrar brechas.</span><span class="en">Findings ranked by severity and an action plan to close gaps.</span></p></div>
-      <div class="step"><div class="n"><span class="es">FASE 3</span><span class="en">PHASE 3</span></div><h3><span class="es">Estructuración</span><span class="en">Structuring</span></h3><p><span class="es">Estructura, escenarios de estrés y material para inversionistas de estándar institucional.</span><span class="en">Structure, stress scenarios and institutional-grade investor materials.</span></p></div>
-      <div class="step"><div class="n"><span class="es">FASE 4</span><span class="en">PHASE 4</span></div><h3><span class="es">Colocación y cierre</span><span class="en">Placement &amp; closing</span></h3><p><span class="es">Presentación a fuentes de capital, negociación de términos y acompañamiento hasta el desembolso.</span><span class="en">Introduction to capital sources, term negotiation and support through disbursement.</span></p></div>
-    </div>
-  </div>
-</section>
-
-<!-- TRAYECTORIA -->
-<section class="block" id="trayectoria">
-  <div class="wrap">
-    <div class="band"><span class="num">05</span><span class="rule"></span></div>
-    <h2><span class="es">Experiencia en los sectores donde la estructura define el resultado</span><span class="en">Experience in the sectors where structure defines the outcome</span></h2>
-    <table class="t">
-      <thead><tr><th><span class="es">Sector</span><span class="en">Sector</span></th><th><span class="es">Tipo de trabajo</span><span class="en">Type of work</span></th></tr></thead>
-      <tbody>
-        <tr><td><span class="es">Energía</span><span class="en">Energy</span></td><td><span class="es">Estructuración y levantamiento de capital para proyectos de generación, incluida energía solar; venta de portafolios de activos solares a compradores estratégicos; fundación y venta de una compañía de energía.</span><span class="en">Structuring and capital raising for generation projects, including solar; sale of solar asset portfolios to strategic buyers; founded and sold an energy company.</span></td></tr>
-        <tr><td><span class="es">Farmacéutico</span><span class="en">Pharma</span></td><td><span class="es">Consolidación de deuda y elegibilidad crediticia ante banca internacional y panameña.</span><span class="en">Debt consolidation and credit eligibility with international and Panamanian banks.</span></td></tr>
-        <tr><td><span class="es">Inmobiliario y construcción</span><span class="en">Real estate &amp; construction</span></td><td><span class="es">Conceptos de bancabilidad, vehículos fiduciarios y estructuración de proyectos multifamiliares y comerciales.</span><span class="en">Bankability opinions, trust vehicles and structuring of multifamily and commercial projects.</span></td></tr>
-        <tr><td><span class="es">Servicios financieros</span><span class="en">Financial services</span></td><td><span class="es">Originadoras de crédito, factoring y libranza: due diligence, sustitución de fondeo, compradores de cartera y titularización.</span><span class="en">Credit, factoring and payroll-lending originators: due diligence, funding replacement, loan-book buyers and securitization.</span></td></tr>
-        <tr><td><span class="es">Activos reales y logística</span><span class="en">Real assets &amp; logistics</span></td><td><span class="es">Capital de trabajo, consolidación de pasivos y referidos a banca empresarial.</span><span class="en">Working capital, liability consolidation and corporate-banking referrals.</span></td></tr>
-      </tbody>
-    </table>
-    <p class="src"><span class="es">Volumen agregado de transacciones: </span><span class="en">Aggregate transaction volume: </span><b style="color:var(--verde-medio)">USD 300M+</b></p>
-
-    <div class="ventures">
-      <div class="venture"><div class="tag"><span class="es">Fundador</span><span class="en">Founder</span></div><h3>Fidunova</h3><p><span class="es">Primera plataforma de tokenización fiduciaria de América Latina, construida sobre Algorand.</span><span class="en">Latin America's first fiduciary tokenization platform, built on Algorand.</span></p></div>
-      <div class="venture"><div class="tag"><span class="es">Fundador</span><span class="en">Founder</span></div><h3>Wiracoxa</h3><p><span class="es">Ecosistema blockchain con billeteras digitales y stablecoins.</span><span class="en">Blockchain ecosystem with digital wallets and stablecoins.</span></p></div>
-      <div class="venture"><div class="tag"><span class="es">Fundador · Exit</span><span class="en">Founder · Exit</span></div><h3>Blackstorm Energy</h3><p><span class="es">Adquirida por Empire Diversified Energy LLC; luego VP Latin America.</span><span class="en">Acquired by Empire Diversified Energy LLC; later VP Latin America.</span></p></div>
-      <div class="venture"><div class="tag"><span class="es">Fundador · Exit</span><span class="en">Founder · Exit</span></div><h3>Agaia Latam</h3><p><span class="es">Empresa de nanotecnología, fundada, desarrollada y vendida.</span><span class="en">Nanotechnology company, founded, built and sold.</span></p></div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACTO -->
-<section class="block contact" id="contacto">
-  <div class="wrap">
-    <div class="band"><span class="num" style="color:var(--oro)">06</span><span class="rule"></span></div>
-    <h2><span class="es">Conversemos sobre su proyecto</span><span class="en">Let's talk about your project</span></h2>
-    <p class="intro"><span class="es">Una primera llamada de 30 minutos basta para saber si su proyecto está listo para financiarse y qué le falta.</span><span class="en">A first 30-minute call is enough to know whether your project is ready to be financed and what it still needs.</span></p>
+    <div class="band"><span class="num">06</span><span class="rule"></span></div>
+    <h2><span class="es">Conversemos sobre su operación</span><span class="en">Let's talk about your transaction</span></h2>
+    <p class="es intro">Una primera llamada de 30 minutos basta para saber si su operación está lista para presentarse a un fondeador y qué le falta.</p><p class="en intro">A first 30-minute call is enough to know whether your transaction is ready to go to a funder and what it still needs.</p>
     <div class="contact-grid">
-      <a class="js-mail" href="#contacto" data-u="rodrigovenegasmortigo" data-d="gmail.com" aria-label="Email"><small>Email</small><span class="mail-ico"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg></span><em><span class="es">Escríbame</span><span class="en">Write to me</span></em></a>
-      <a class="js-wa" href="#contacto" data-n="573155446661" target="_blank" rel="noopener" aria-label="WhatsApp"><small>WhatsApp</small><span class="mail-ico"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z"/><path d="M8.6 7.8c.3-.3.8-.3 1 .1l.8 1.7c.1.3 0 .6-.2.8l-.5.5c.6 1.3 1.6 2.3 2.9 2.9l.5-.5c.2-.2.5-.3.8-.2l1.7.8c.4.2.4.7.1 1-.9.9-2.2 1.1-3.3.5a9.4 9.4 0 01-4.3-4.3c-.6-1.1-.4-2.4.5-3.3z" fill="currentColor" stroke="none"/></svg></span><em><span class="es">Enviar mensaje</span><span class="en">Send a message</span></em></a>
-      <a href="https://www.linkedin.com/in/rodvenegas/" target="_blank" rel="noopener" aria-label="LinkedIn"><small>LinkedIn</small><span class="mail-ico"><svg viewBox="0 0 24 24" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.5-2.25 3.1V21H9z"/></svg></span><em><span class="es">Ver mi perfil profesional</span><span class="en">View my professional profile</span></em></a>
-      <a href="https://meetings.hubspot.com/rodrigo578" target="_blank" rel="noopener"><small><span class="es">Agendar llamada</span><span class="en">Book a call</span></small><span class="mail-ico"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M8 14h2M11 14h2M14 14h2M8 17h2M11 17h2" stroke-width="1.8"/></svg></span><em><span class="es">Reservar 30 min</span><span class="en">Book 30 min</span></em></a>
+      <a class="js-mail" href="/contacto/" data-u="rodrigovenegasmortigo" data-d="gmail.com" aria-label="Email"><small>Email</small><span class="ci"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg></span><em><span class="es">Escríbanos</span><span class="en">Write to us</span></em></a>
+      <a class="js-wa" href="/contacto/" data-n="573155446661" target="_blank" rel="noopener" aria-label="WhatsApp"><small>WhatsApp</small><span class="ci"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z"/><path d="M8.6 7.8c.3-.3.8-.3 1 .1l.8 1.7c.1.3 0 .6-.2.8l-.5.5c.6 1.3 1.6 2.3 2.9 2.9l.5-.5c.2-.2.5-.3.8-.2l1.7.8c.4.2.4.7.1 1-.9.9-2.2 1.1-3.3.5a9.4 9.4 0 01-4.3-4.3c-.6-1.1-.4-2.4.5-3.3z" fill="currentColor" stroke="none"/></svg></span><em><span class="es">Enviar mensaje</span><span class="en">Send a message</span></em></a>
+      <a href="https://www.linkedin.com/in/rodvenegas/" target="_blank" rel="noopener" aria-label="LinkedIn"><small>LinkedIn</small><span class="ci"><svg viewBox="0 0 24 24" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.5-2.25 3.1V21H9z"/></svg></span><em><span class="es">Perfil del socio director</span><span class="en">Managing partner's profile</span></em></a>
+      <a href="https://meetings.hubspot.com/rodrigo578" target="_blank" rel="noopener"><small><span class="es">Agendar llamada</span><span class="en">Book a call</span></small><span class="ci"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M8 14h2M11 14h2M14 14h2M8 17h2M11 17h2" stroke-width="1.8"/></svg></span><em><span class="es">Reservar 30 minutos</span><span class="en">Book 30 minutes</span></em></a>
     </div>
   </div>
 </section>
-
+</main>
 <footer class="foot">
   <div class="wrap">
-    <div><b>RODRIGO VENEGAS</b> · Bogotá · Panamá · Miami · © <span id="yr">2026</span></div>
-    <div class="disc"><span class="es">Servicios de asesoría profesional independiente. No constituye oferta de valores ni actividad de entidad bancaria o intermediario de valores.</span><span class="en">Independent professional advisory services. Not an offer of securities, nor the activity of a bank or broker-dealer.</span></div>
+    <div class="foot-grid">
+      <div>
+        <b>VENEGAS CAPITAL GROUP</b>
+        <p style="margin-top:10px;color:#C6D6CD"><span class="es">Estructuración financiera, banca de inversión y derecho financiero para Latinoamérica, Estados Unidos y Europa.</span><span class="en">Financial structuring, investment banking and financial law for Latin America, the United States and Europe.</span></p>
+        <p style="margin-top:12px;letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:var(--menta)">Bogotá · Panamá · Miami</p>
+      </div>
+      <div><h4><span class="es">Servicios</span><span class="en">Services</span></h4><ul><li><a href="/servicios/credito/"><span class="es">Crédito corporativo y de proyectos</span><span class="en">Corporate & project credit</span></a></li><li><a href="/servicios/inversion/"><span class="es">Inversión y levantamiento de capital</span><span class="en">Investment & capital raising</span></a></li><li><a href="/servicios/fusiones-adquisiciones/"><span class="es">Fusiones y adquisiciones</span><span class="en">Mergers & acquisitions</span></a></li><li><a href="/servicios/compraventa-activos/"><span class="es">Compraventa de activos</span><span class="en">Asset sales & acquisitions</span></a></li><li><a href="/servicios/factoring/"><span class="es">Factoring local e internacional</span><span class="en">Domestic & international factoring</span></a></li><li><a href="/servicios/credito-cross-border/"><span class="es">Crédito cross-border</span><span class="en">Cross-border credit</span></a></li><li><a href="/servicios/acompanamiento-legal/"><span class="es">Acompañamiento legal transversal</span><span class="en">End-to-end legal support</span></a></li></ul></div>
+      <div><h4><span class="es">La firma</span><span class="en">The firm</span></h4><ul>
+        <li><a href="/inteligencia-artificial/"><span class="es">IA aplicada</span><span class="en">Applied AI</span></a></li>
+        <li><a href="/firma/"><span class="es">Socio director y trayectoria</span><span class="en">Managing partner & track record</span></a></li>
+        <li><a href="/contacto/"><span class="es">Contacto</span><span class="en">Contact</span></a></li>
+        <li><a href="https://www.linkedin.com/in/rodvenegas/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul></div>
+    </div>
+    <p class="disc">© <span class="yr">2026</span> Venegas Capital Group. <span class="es">Venegas Capital Group es la marca de la práctica de asesoría profesional independiente de Rodrigo Venegas. No es una entidad financiera: no capta recursos del público, no otorga crédito, no compra facturas ni cartera y no realiza intermediación de valores. Estructuramos las operaciones y las gestionamos ante bancos, fondos y fondeadores aliados, que toman sus propias decisiones de crédito e inversión. Nada en este sitio constituye una oferta de valores.</span><span class="en">Venegas Capital Group is the brand of Rodrigo Venegas's independent professional advisory practice. It is not a financial institution: it does not take deposits, lend, purchase invoices or loan books, or act as a broker-dealer. We structure transactions and arrange them with partner banks, funds and lenders, who make their own credit and investment decisions. Nothing on this site is an offer of securities.</span></p>
   </div>
 </footer>
-
-<script>
-(function(){
-  var root=document.documentElement, btns=document.querySelectorAll('.lang button');
-  function set(l){
-    root.setAttribute('data-lang',l); root.setAttribute('lang',l);
-    document.title = l==='en' ? 'Rodrigo Venegas · Financial Structuring' : 'Rodrigo Venegas · Estructuración Financiera';
-    btns.forEach(function(b){b.setAttribute('aria-pressed', b.dataset.set===l?'true':'false');});
-    try{localStorage.setItem('rv-lang',l);}catch(e){}
-  }
-  var saved=null; try{saved=localStorage.getItem('rv-lang');}catch(e){}
-  var q=new URLSearchParams(location.search).get('lang');
-  var init=q||saved||((navigator.language||'es').toLowerCase().indexOf('en')===0?'en':'es');
-  set(init==='en'?'en':'es');
-  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set);});});
-  document.getElementById('yr').textContent=new Date().getFullYear();
-  document.querySelectorAll('.js-mail').forEach(function(a){a.href='mailto:'+a.dataset.u+'@'+a.dataset.d;});
-  document.querySelectorAll('.js-wa').forEach(function(a){a.href='https://wa.me/'+a.dataset.n;});
-})();
-</script>
+<script src="/assets/site.js"></script>
 </body>
 </html>
